@@ -2,7 +2,8 @@
   "name": "Flow EVM Token List",
   "network": "mainnet",
   "chainId": 747,
-  "tokens": [],
+  "tokens": [
+  ],
   "totalAmount": 0,
   "filterType": "ALL",
   "timestamp": "2024-05-13T05:55:05.604Z",

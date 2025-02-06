@@ -1,0 +1,64 @@
+# This is a basic workflow that is manually triggered
+
+name: Add flow evm token
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      address:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: "Token address"
+        # Default value if no value is explicitly provided
+        default: ""
+        # Input has to be provided for the workflow to run
+        required: true
+        # The data type of the input
+        type: string
+      network:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: "Network"
+        # Default value if no value is explicitly provided
+        default: "mainnet"
+        # Input has to be provided for the workflow to run
+        required: false
+        # The data type of the input
+        type: string
+      identifier:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: "Flow identifier"
+        # Default value if no value is explicitly provided
+        default: ""
+        # Input has to be provided for the workflow to run
+        required: false
+        # The data type of the input
+        type: string
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  update-scripts:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - run: yarn
+      - run: node ./scripts/add-flow-evm-token.js ${{inputs.address}} ${{inputs.identifier}} ${{inputs.network}}
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "feat(Tokens): add flow emv token: ${{inputs.address}} "
+          body: "auto-add-flow-evm-token"
+          labels: Tokens
+          branch: "feature/add-flow-evm-tokens"
+          branch-suffix: timestamp
+          delete-branch: true
+          base: dev

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "The token list JSONs synced from https://token-list.fixes.world/",
   "scripts": {
-    "sync": "node ./scripts/sync-token-lists.mjs"
+    "sync": "node ./scripts/sync-token-lists.mjs",
+    "add-flow-token": "node ./scripts/add-flow-token.mjs",
+    "add-flow-evm-token": "node ./scripts/add-flow-evm-token.mjs 0xe83b56c8b96d02ac0add53f69267abd231f3c425 mainnet "
   },
   "keywords": [
     "TokenList",
@@ -12,6 +14,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
+    "axios": "^1.7.9",
     "node-fetch": "^3.3.2"
   }
 }
