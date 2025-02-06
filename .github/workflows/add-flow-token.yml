@@ -59,7 +59,7 @@ jobs:
         with:
           node-version: "18"
       - run: yarn
-      - run: node ./scripts/add-flow-token.js ${{inputs.address}} ${{inputs.contractName}} ${{inputs.network}} ${{inputs.evmAddress}}
+      - run: node ./scripts/add-flow-token.mjs ${{inputs.address}} ${{inputs.contractName}} ${{inputs.network}} ${{inputs.evmAddress}}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:

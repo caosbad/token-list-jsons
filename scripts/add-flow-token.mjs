@@ -83,9 +83,9 @@ const main = async () => {
     throw ("Token not found")
   }
 
-  if (evmAddress.length > 0) {
-    tokenInfo.evmAddress = evmAddress
-    tokenInfo.evm_address = evmAddress
+  if (tokenInfo.evmAddress) {
+    tokenInfo.evmAddress = tokenInfo.evmAddress || evmAddress
+    tokenInfo.evm_address = tokenInfo.evmAddress || evmAddress
   }
   const currentTokens = await loadOutblocTokenList(`../jsons/${network}/flow/default.json`)
 

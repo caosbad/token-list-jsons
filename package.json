@@ -5,7 +5,7 @@
   "scripts": {
     "sync": "node ./scripts/sync-token-lists.mjs",
     "add-flow-token": "node ./scripts/add-flow-token.mjs",
-    "add-flow-evm-token": "node ./scripts/add-flow-evm-token.mjs 0xe83b56c8b96d02ac0add53f69267abd231f3c425 mainnet "
+    "add-flow-evm-token": "node ./scripts/add-flow-evm-token.mjs"
   },
   "keywords": [
     "TokenList",

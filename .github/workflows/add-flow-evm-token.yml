@@ -50,7 +50,7 @@ jobs:
         with:
           node-version: "18"
       - run: yarn
-      - run: node ./scripts/add-flow-evm-token.js ${{inputs.address}} ${{inputs.identifier}} ${{inputs.network}}
+      - run: node ./scripts/add-flow-evm-token.mjs ${{inputs.address}} ${{inputs.identifier}} ${{inputs.network}}
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
