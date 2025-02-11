@@ -12,7 +12,8 @@ on:
         required: true
         default: 'Manual sync'
         type: string
-
+  branches:
+    - outblock
 jobs:
   daily-sync:
     runs-on: ubuntu-latest
@@ -30,7 +31,6 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions [Bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git switch outblock
       - name: Sync Token Lists
         # Use node to run './scripts/sync-token-lists-from-outblock.mjs'
         run: |
