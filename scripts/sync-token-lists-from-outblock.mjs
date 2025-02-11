@@ -41,6 +41,7 @@ const queryTokenList = async (network, executionEnv) => {
       return undefined
     }
   } catch (e) {
+    console.log(e, 'error')
     console.error(`Failed to query token list for ${network}(${executionEnv})`)
     return undefined
   }
