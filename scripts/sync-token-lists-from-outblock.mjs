@@ -48,9 +48,7 @@ const queryTokenList = async (network, executionEnv) => {
 }
 
 const writeJSONFile = async (data, network, executionEnv) => {
-  const filename = join(process.cwd(), 'jsons', network, executionEnv, [
-    'default.json',
-  ])
+  const filename = join(process.cwd(), 'jsons', network, executionEnv, 'default.json',)
 
   let originList
   try {
@@ -90,16 +88,16 @@ const writeJSONFile = async (data, network, executionEnv) => {
     oldTokenDeleted = origTokensSet.size > newTokensSet.size
   }
 
-  if (oldTokenDeleted) {
-    data.version.major = (originList ?? data).version.major + 1
-    data.version.minor = 0
-    data.version.patch = 0
-  } else if (newTokenAdded) {
-    data.version.minor = (originList ?? data).version.minor + 1
-    data.version.patch = 0
-  } else {
-    data.version.patch = (originList ?? data).version.patch + 1
-  }
+  // if (oldTokenDeleted) {
+  //   data.version.major = (originList ?? data).version.major + 1
+  //   data.version.minor = 0
+  //   data.version.patch = 0
+  // } else if (newTokenAdded) {
+  //   data.version.minor = (originList ?? data).version.minor + 1
+  //   data.version.patch = 0
+  // } else {
+  //   data.version.patch = (originList ?? data).version.patch + 1
+  // }
 
   fs.writeFileSync(filename, JSON.stringify(data, null, 2))
   console.log(`Wrote ${filename}`)
