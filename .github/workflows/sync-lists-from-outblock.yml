@@ -1,5 +1,5 @@
 name: sync-token-lists-from-outblock
-run-name: Daily Sync Token Lists
+run-name: Sync Token Lists
 on:
   # Schedule the workflow to run every 24 hours
   schedule:
@@ -30,18 +30,14 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions [Bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout outblock
       - name: Sync Token Lists
-        # Use node to run './scripts/sync-token-lists.mjs'
+        # Use node to run './scripts/sync-token-lists-from-outblock.mjs'
         run: |
           npm install
-          npm run sync-fts
-      - name: Sync NFT Lists
-        # Use node to run './scripts/sync-nft-lists.mjs'
-        run: |
-          npm install
-          npm run sync-nfts ${{ secrets.GITHUB_TOKEN }}
+          npm run sync-fts-from-outblock ${{ secrets.GITHUB_TOKEN }}
       - name: Check Git Status and Commit
-      # if any changes are made, we will commit and push them
+        # if any changes are made, we will commit and push them
         run: |
           git add .
           git status
@@ -49,5 +45,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Sync Token Lists at $(date)"
-            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/fixes-world/token-list-jsons.git
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/outblock/token-list-jsons.git
           fi
