@@ -1,7 +1,6 @@
 name: sync-token-lists-from-outblock
 run-name: Sync Token Lists
 on:
-  # Schedule the workflow to run every 24 hours
   schedule:
     - cron: '0 0 * * *'
   # Allow manual triggering of the workflow
