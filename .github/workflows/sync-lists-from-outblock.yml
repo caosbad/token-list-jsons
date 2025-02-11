@@ -30,7 +30,7 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions [Bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout outblock
+          git switch outblock
       - name: Sync Token Lists
         # Use node to run './scripts/sync-token-lists-from-outblock.mjs'
         run: |
