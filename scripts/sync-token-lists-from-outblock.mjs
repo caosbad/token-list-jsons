@@ -21,7 +21,7 @@ const endpoints = {
 
 const queryTokenList = async (network, executionEnv) => {
   let url = `${endpoints[network]}/${executionEnv}/default.json`
-
+  console.log(token)
   try {
     // const response = await fetch(url)
     const response = await fetch(url, {
