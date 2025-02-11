@@ -1,6 +1,7 @@
 name: sync-token-lists-from-outblock
 run-name: Sync Token Lists
 on:
+  # Schedule the workflow to run every 24 hours
   schedule:
     - cron: '0 0 * * *'
   # Allow manual triggering of the workflow
@@ -11,16 +12,15 @@ on:
         required: true
         default: 'Manual sync'
         type: string
-  push:
-    branches:
-      - outblock
+
 jobs:
-  daily-sync:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: 'outblock'
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup Node.js
         uses: actions/setup-node@v4
