@@ -45,6 +45,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Sync Token Lists at $(date)"
-            git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/casobad/token-list-jsons.git
-            git push origin
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/caosbad/token-list-jsons.git
           fi
