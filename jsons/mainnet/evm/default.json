@@ -2,9 +2,8 @@
   "name": "Flow EVM Token List",
   "network": "mainnet",
   "chainId": 747,
-  "tokens": [
-  ],
-  "totalAmount": 0,
+  "tokens": [],
+  "totalAmount": 1,
   "filterType": "ALL",
   "timestamp": "2024-05-13T05:55:05.604Z",
   "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",

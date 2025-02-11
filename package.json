@@ -5,7 +5,8 @@
   "scripts": {
     "sync": "node ./scripts/sync-token-lists.mjs",
     "add-flow-token": "node ./scripts/add-flow-token.mjs",
-    "add-flow-evm-token": "node ./scripts/add-flow-evm-token.mjs"
+    "add-flow-evm-token": "node ./scripts/add-flow-evm-token.mjs",
+    "sync-fts-from-outblock": "node ./scripts/sync-token-lists-from-outblock.mjs"
   },
   "keywords": [
     "TokenList",

@@ -1,0 +1,53 @@
+name: sync-token-lists
+run-name: Daily Sync Token Lists
+on:
+  # Schedule the workflow to run every 24 hours
+  schedule:
+    - cron: '0 0 * * *'
+  # Allow manual triggering of the workflow
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Reason for sync'
+        required: true
+        default: 'Manual sync'
+        type: string
+
+jobs:
+  daily-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+      - name: Configure Git
+        run: |
+          git config --local user.name "GitHub Actions [Bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Sync Token Lists
+        # Use node to run './scripts/sync-token-lists.mjs'
+        run: |
+          npm install
+          npm run sync-fts
+      - name: Sync NFT Lists
+        # Use node to run './scripts/sync-nft-lists.mjs'
+        run: |
+          npm install
+          npm run sync-nfts ${{ secrets.GITHUB_TOKEN }}
+      - name: Check Git Status and Commit
+      # if any changes are made, we will commit and push them
+        run: |
+          git add .
+          git status
+          if git diff --staged --exit-code --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Sync Token Lists at $(date)"
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/fixes-world/token-list-jsons.git
+          fi

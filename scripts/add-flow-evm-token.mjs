@@ -10,22 +10,15 @@ const tokenAddress = args[2]
 const network = args[3]
 const identifier = args[4]
 
-// console.log(tokenAddress, tokenName, network)
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const networks = ["mainnet", "testnet"];
 
 const fixesEndpoints = {
   mainnet: "https://raw.githubusercontent.com/fixes-world/token-list-jsons/refs/heads/main/jsons/mainnet",
   testnet: "https://raw.githubusercontent.com/fixes-world/token-list-jsons/refs/heads/main/jsons/testnet"
 };
 
-// const outblockEndpoints = {
-//   mainnet: "https://raw.githubusercontent.com/fixes-world/token-list-jsons/refs/heads/main/jsons/mainnet",
-//   testnet: "https://raw.githubusercontent.com/fixes-world/token-list-jsons/refs/heads/main/jsons/testnet"
-// };
 
 const queryTokenList = async (network) => {
   try {

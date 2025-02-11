@@ -27,7 +27,6 @@ on:
         # The data type of the input
         type: string
       identifier:
-        # Friendly description to be shown in the UI instead of 'name'
         description: "Flow identifier"
         # Default value if no value is explicitly provided
         default: ""
