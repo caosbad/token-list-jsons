@@ -45,5 +45,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Sync Token Lists at $(date)"
-            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/outblock/token-list-jsons.git
+            git push https://${{ secrets.GITHUB_TOKEN }}@github.com/casobad/token-list-jsons.git
           fi
