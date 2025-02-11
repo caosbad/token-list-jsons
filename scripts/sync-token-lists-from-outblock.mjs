@@ -14,9 +14,9 @@ const token = args[2]
 
 const endpoints = {
   mainnet:
-    'https://raw.githubusercontent.com/Outblock/FRW-web-next/refs/heads/main/pages/api/v3/fts/fts/mainnet',
+    'https://api.github.com/repos/Outblock/FRW-web-next/contents/pages/api/v3/fts/fts/mainnet',
   testnet:
-    'https://raw.githubusercontent.com/Outblock/FRW-web-next/refs/heads/main/pages/api/v3/fts/fts/testnet',
+    'https://api.github.com/repos/Outblock/FRW-web-next/contents/pages/api/v3/fts/fts/testnet',
 }
 
 const queryTokenList = async (network, executionEnv) => {
