@@ -1,4 +1,4 @@
-name: sync-token-lists
+name: sync-token-lists-from-outblock
 run-name: Daily Sync Token Lists
 on:
   # Schedule the workflow to run every 24 hours
