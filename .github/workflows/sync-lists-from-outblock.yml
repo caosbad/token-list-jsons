@@ -11,8 +11,9 @@ on:
         required: true
         default: 'Manual sync'
         type: string
-  branches:
-    - outblock
+  push:
+    branches:
+      - outblock
 jobs:
   daily-sync:
     runs-on: ubuntu-latest
