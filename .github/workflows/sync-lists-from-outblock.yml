@@ -35,7 +35,7 @@ jobs:
         # Use node to run './scripts/sync-token-lists-from-outblock.mjs'
         run: |
           npm install
-          npm run sync-fts-from-outblock ${{ secrets.GITHUB_TOKEN }}
+          npm run sync-fts-from-outblock ${{ secrets.OUTBLOCK_SYNC_TOKEN_SECRET }}
       - name: Check Git Status and Commit
         # if any changes are made, we will commit and push them
         run: |
