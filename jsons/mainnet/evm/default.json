@@ -646,6 +646,19 @@
       "extensions": {
         "website": "https://evm.flowscan.io/token/0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
       }
+    },
+    {
+      "chainId": 747,
+      "address": "0xD59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0",
+      "symbol": "PEPE",
+      "name": "PEPE",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pepeonflow/token/c677c84d37abf2640aa159d7e65e6cb87077619d/PEPE_FLOW_PFP.png",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_D59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0.Vault",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0xD59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0"
+      }
     }
   ],
   "totalAmount": 0,

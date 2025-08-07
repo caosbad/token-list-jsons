@@ -1309,6 +1309,26 @@
       },
       "evmAddress": "0xf45cbe30bd953590c9917799142edb05be3f293f",
       "evm_address": "0xf45cbe30bd953590c9917799142edb05be3f293f"
+    },
+    {
+      "chainId": 747,
+      "address": "0x1e4aa0b87d10b141",
+      "contractName": "EVMVMBridgedToken_d59d7c7f4d063a707a021c7c49c5cfb4faf94cb0",
+      "path": {
+        "vault": "/storage/EVMVMBridgedToken_d59d7c7f4d063a707a021c7c49c5cfb4faf94cb0Vault",
+        "receiver": "/public/EVMVMBridgedToken_d59d7c7f4d063a707a021c7c49c5cfb4faf94cb0Receiver",
+        "balance": "/public/EVMVMBridgedToken_d59d7c7f4d063a707a021c7c49c5cfb4faf94cb0Vault"
+      },
+      "symbol": "PEPE",
+      "name": "PEPE",
+      "description": "The most memeable memecoin in existence.",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/pepeonflow/token/c677c84d37abf2640aa159d7e65e6cb87077619d/PEPE_FLOW_PFP.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0xd59d7c7f4d063a707a021c7c49c5cfb4faf94cb0"
+      },
+      "evmAddress": "0xd59d7c7f4d063a707a021c7c49c5cfb4faf94cb0"
     }
   ],
   "totalAmount": 50,
