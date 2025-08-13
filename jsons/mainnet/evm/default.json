@@ -653,7 +653,7 @@
       "symbol": "PEPE",
       "name": "PEPE",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pepeonflow/token/c677c84d37abf2640aa159d7e65e6cb87077619d/PEPE_FLOW_PFP.png",
+      "logoURI": "https://swap.kittypunch.xyz/pepe.png",
       "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_D59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0.Vault",
       "tags": [],
       "extensions": {

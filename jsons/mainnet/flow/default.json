@@ -1323,7 +1323,7 @@
       "name": "PEPE",
       "description": "The most memeable memecoin in existence.",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/pepeonflow/token/c677c84d37abf2640aa159d7e65e6cb87077619d/PEPE_FLOW_PFP.png",
+      "logoURI": "https://swap.kittypunch.xyz/pepe.png",
       "tags": [],
       "extensions": {
         "website": "https://evm.flowscan.io/token/0xd59d7c7f4d063a707a021c7c49c5cfb4faf94cb0"
