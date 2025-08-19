@@ -649,15 +649,28 @@
     },
     {
       "chainId": 747,
-      "address": "0xD59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0",
+      "address": "0xd59d7c7f4d063a707a021c7c49c5cfb4faf94cb0",
       "symbol": "PEPE",
       "name": "PEPE",
       "decimals": 18,
       "logoURI": "https://swap.kittypunch.xyz/pepe.png",
-      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_D59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0.Vault",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_d59d7c7f4d063a707a021c7c49c5cfb4faf94cb0.Vault",
       "tags": [],
       "extensions": {
         "website": "https://evm.flowscan.io/token/0xD59D7c7F4D063A707a021C7c49c5cFb4fAF94cB0"
+      }
+    },
+    {
+      "chainId": 747,
+      "address": "0x2751db789ab49e4f1cfa192831c19d8f40c708c9",
+      "symbol": "sFVIX",
+      "name": "Staked FVIX",
+      "decimals": 18,
+      "logoURI": "https://swap.kittypunch.xyz/sfvix.png",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_2751db789ab49e4f1cfa192831c19d8f40c708c9.Vault",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0x2751db789ab49e4f1cfa192831c19d8f40c708c9"
       }
     }
   ],
