@@ -672,6 +672,19 @@
       "extensions": {
         "website": "https://evm.flowscan.io/token/0x2751db789ab49e4f1cfa192831c19d8f40c708c9"
       }
+    },
+    {
+      "chainId": 747,
+      "address": "0x96943341663da3bdb36cd7099aac9bbbb3686189",
+      "symbol": "DPIN",
+      "name": "DPIN",
+      "decimals": 18,
+      "logoURI": "https://swap.kittypunch.xyz/DPIN.png",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_96943341663da3bdb36cd7099aac9bbbb3686189.Vault",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0x96943341663da3bdb36cd7099aac9bbbb3686189"
+      }
     }
   ],
   "totalAmount": 0,
