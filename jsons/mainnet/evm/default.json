@@ -675,6 +675,19 @@
     },
     {
       "chainId": 747,
+      "address": "0x00f4ce400130c9383115f3858f9ca54677426583",
+      "symbol": "FVIX",
+      "name": "FVIX",
+      "decimals": 18,
+      "logoURI": "https://swap.kittypunch.xyz/fvix.png",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_00f4ce400130c9383115f3858f9ca54677426583.Vault",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0x00f4ce400130c9383115f3858f9ca54677426583"
+      }
+    },
+    {
+      "chainId": 747,
       "address": "0x96943341663da3bdb36cd7099aac9bbbb3686189",
       "symbol": "DPIN",
       "name": "DPIN",
