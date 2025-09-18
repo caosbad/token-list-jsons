@@ -61,7 +61,7 @@
       "name": "Flow",
       "description": "",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
+      "logoURI": "https://swap.kittypunch.xyz/flow.png",
       "tags": [
         "utility-token"
       ],
@@ -119,7 +119,7 @@
   "totalAmount": 4,
   "filterType": "ALL",
   "timestamp": "2024-05-13T06:34:36.510Z",
-  "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
+  "logoURI": "https://swap.kittypunch.xyz/flow.png",
   "keywords": [
     "Flow",
     "Cadence",
