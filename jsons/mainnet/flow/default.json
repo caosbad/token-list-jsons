@@ -16,7 +16,7 @@
       "name": "Flow",
       "description": "",
       "decimals": 8,
-      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.1654653399040a61.FlowToken/logo.svg",
+      "logoURI": "https://swap.kittypunch.xyz/flow.png",
       "tags": [
         "Verified",
         "Featured",
@@ -1089,7 +1089,7 @@
       "name": "PunchSwap V2",
       "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of 83900c7ffece2a47cac867f87252cdf52bd017a2",
       "decimals": 18,
-      "logoURI": "https://assets.website-files.com/5f6294c0c7a8cdd643b1c820/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.svg",
+      "logoURI": "",
       "tags": [],
       "extensions": {
         "website": "https://www.flowscan.io/contract/A.1e4aa0b87d10b141.EVMVMBridgedToken_83900c7ffece2a47cac867f87252cdf52bd017a2"
@@ -1174,7 +1174,7 @@
       "name": "Coinbase Wrapped BTC (cbBTC)",
       "description": "",
       "decimals": 8,
-      "logoURI": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/CBBTC/logo.svg",
+      "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/32994.png",
       "tags": [
         "wrapped"
       ],
