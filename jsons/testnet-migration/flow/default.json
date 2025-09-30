@@ -16,7 +16,7 @@
       "name": "Flow",
       "description": "",
       "decimals": 8,
-      "logoURI": "https://swap.kittypunch.xyz/flow.png",
+      "logoURI": "https://raw.githubusercontent.com/Outblock/Assets/main/ft/flow/logo.png",
       "tags": [
         "utility-token"
       ],
@@ -35,7 +35,7 @@
   "totalAmount": 1,
   "filterType": "ALL",
   "timestamp": "2024-05-13T06:34:36.510Z",
-  "logoURI": "https://swap.kittypunch.xyz/flow.png",
+  "logoURI": "https://raw.githubusercontent.com/Outblock/Assets/main/ft/flow/logo.png",
   "keywords": [
     "Flow"
   ],

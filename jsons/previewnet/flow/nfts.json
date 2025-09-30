@@ -6,7 +6,7 @@
       "contractName": "ExampleNFT",
       "id": "cadenceExampleNFTCollection",
       "contract_name": "ExampleNFT",
-      "logo": "https://swap.kittypunch.xyz/flow.png",
+      "logo": "https://raw.githubusercontent.com/Outblock/Assets/main/ft/flow/logo.png",
       "name": "The Example Collection",
       "banner": "https://assets.website-files.com/5f6294c0c7a8cdd643b1c820/5f6294c0c7a8cda55cb1c936_Flow_Wordmark.svg",
       "official_website": "https://example-nft.onflow.org",
