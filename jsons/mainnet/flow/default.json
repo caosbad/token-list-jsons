@@ -118,7 +118,7 @@
       "name": "Beaver",
       "description": "Hey, nice beaver",
       "decimals": 8,
-      "logoURI": "https://nftstorage.link/ipfs/bafybeid4icgfrn46k3ze2f6vbus53zk7mnkofjpqgs3oyrdiispr5hfe7e",
+      "logoURI": "https://cdn.jsdelivr.net/gh/FlowFans/flow-token-list@main/token-registry/A.687e1a7aef17b78b.Beaver/logo.png",
       "tags": [],
       "extensions": {
         "discord": "",
@@ -773,7 +773,7 @@
       "name": "BETA.Classic",
       "description": "Top Shots Rookie Debut Meme Coin",
       "decimals": 8,
-      "logoURI": "https://nftstorage.link/ipfs/bafkreifkjlkzfjml77ogwnxnbqbeixbxau6lyubwtrcfsi3uwaeep664mu",
+      "logoURI": "https://swap.kittypunch.xyz/BETA.png",
       "tags": [],
       "extensions": {
         "discord": "",
