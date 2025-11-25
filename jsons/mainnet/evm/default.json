@@ -443,7 +443,7 @@
       },
       "evmAddress": "0xf1815bd50389c46847f0bda824ec8da914045d14",
       "flowAddress": "0x1e4aa0b87d10b141",
-      "symbol": "stgUSDC",
+      "symbol": "USDC",
       "name": "Bridged USDC (Stargate)",
       "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of f1815bd50389c46847f0bda824ec8da914045d14",
       "decimals": 6,
