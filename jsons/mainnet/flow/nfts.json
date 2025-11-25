@@ -2799,6 +2799,34 @@
       },
       "evmAddress": "0xf5e1953971497b86ddc2b7a5bc61182da3cb0e47",
       "evm_address": "0xf5e1953971497b86ddc2b7a5bc61182da3cb0e47"
+    },
+    {
+      "id": "SemesterZeroV3Collection",
+      "contract_name": "SemesterZeroV3",
+      "logo": "https://storage.googleapis.com/flunks_public/images/semesterzero.png",
+      "address": "0xce9dd43888d99574",
+      "name": "Flunks: Semester Zero",
+      "banner": "https://storage.googleapis.com/flunks_public/images/banner.png",
+      "official_website": "https://flunks.net",
+      "description": "Collectible Pins and Patches from Flunks: Semester Zero. Earn them by exploring locations, completing challenges, and participating in events. Evolve your NFTs with GUM to unlock new tiers and reveal hidden traits!.",
+      "path": {
+        "storage_path": "/storage/SemesterZeroV3Collection",
+        "public_path": "/public/SemesterZeroV3Collection",
+        "private_path": "/private/SemesterZeroV3Collection",
+        "public_collection_name": "NonFungibleToken.CollectionPublic",
+        "public_type": "SemesterZeroV3.Collection{NonFungibleToken.CollectionPublic,NonFungibleToken.Receiver,SemesterZeroV3.CollectionPublicPath,MetadataViews.ResolverCollection}",
+        "private_type": "SemesterZeroV3.Collection{NonFungibleToken.Provider,NonFungibleToken.CollectionPublic,NonFungibleToken.Receiver,SemesterZeroV3.CollectionPublicPath,MetadataViews.ResolverCollection}"
+      },
+      "socials": {
+        "discord": {
+          "url": "https://discord.gg/flunks"
+        },
+        "twitter": {
+          "url": "https://twitter.com/FlunksNFT"
+        }
+      },
+      "evmAddress": "",
+      "evm_address": ""
     }
   ],
   "status": 200
