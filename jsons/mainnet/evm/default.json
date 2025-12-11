@@ -698,6 +698,29 @@
       "extensions": {
         "website": "https://evm.flowscan.io/token/0x96943341663da3bdb36cd7099aac9bbbb3686189"
       }
+    },
+    {
+      "chainId": 747,
+      "address": "0x717dae2baf7656be9a9b01dee31d571a9d4c9579",
+      "contractName": "EVMVMBridgedToken_717dae2baf7656be9a9b01dee31d571a9d4c9579",
+      "path": {
+        "vault": "/storage/EVMVMBridgedToken_717dae2baf7656be9a9b01dee31d571a9d4c9579Vault",
+        "receiver": "/public/EVMVMBridgedToken_717dae2baf7656be9a9b01dee31d571a9d4c9579Receiver",
+        "balance": "/public/EVMVMBridgedToken_717dae2baf7656be9a9b01dee31d571a9d4c9579Vault"
+      },
+      "evmAddress": "0x717dae2baf7656be9a9b01dee31d571a9d4c9579",
+      "flowAddress": "0x1e4aa0b87d10b141",
+      "symbol": "WBTC",
+      "name": "Wrapped BTC",
+      "description": "This fungible token was bridged from EVM on Flow with the ERC20 contract address of 717dae2baf7656be9a9b01dee31d571a9d4c9579",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/onflow/assets/refs/heads/main/tokens/registry/0x717dae2baf7656be9a9b01dee31d571a9d4c9579/logo.png",
+      "tags": [],
+      "extensions": {
+        "displaySource": "0xa2de93114bae3e73"
+      },
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_717dae2baf7656be9a9b01dee31d571a9d4c9579.Vault",
+      "website": "https://evm.flowscan.io/token/0x717dae2baf7656be9a9b01dee31d571a9d4c9579"
     }
   ],
   "totalAmount": 0,
