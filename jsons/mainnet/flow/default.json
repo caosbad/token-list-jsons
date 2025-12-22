@@ -1343,7 +1343,7 @@
       "name": "PYUSD0",
       "description": "PYUSD0",
       "decimals": 16,
-      "logoURI": "https://swap.kittypunch.xyz/pyusd0.svg",
+      "logoURI": "https://raw.githubusercontent.com/onflow/assets/refs/heads/main/tokens/registry/0x99aF3EeA856556646C98c8B9b2548Fe815240750/logo.png",
       "tags": [],
       "extensions": {
         "website": "https://evm.flowscan.io/token/0x99af3eea856556646c98c8b9b2548fe815240750"

@@ -705,7 +705,7 @@
       "symbol": "PYUSD0",
       "name": "PYUSD0",
       "decimals": 16,
-      "logoURI": "https://swap.kittypunch.xyz/pyusd0.svg",
+      "logoURI": "https://raw.githubusercontent.com/onflow/assets/refs/heads/main/tokens/registry/0x99aF3EeA856556646C98c8B9b2548Fe815240750/logo.png",
       "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_99af3eea856556646c98c8b9b2548fe815240750.Vault",
       "tags": [],
       "extensions": {
