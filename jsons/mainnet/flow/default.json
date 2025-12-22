@@ -1329,6 +1329,26 @@
         "website": "https://evm.flowscan.io/token/0xd59d7c7f4d063a707a021c7c49c5cfb4faf94cb0"
       },
       "evmAddress": "0xd59d7c7f4d063a707a021c7c49c5cfb4faf94cb0"
+    },
+    {
+      "chainId": 747,
+      "address": "0x1e4aa0b87d10b141",
+      "contractName": "EVMVMBridgedToken_99af3eea856556646c98c8b9b2548fe815240750",
+      "path": {
+        "vault": "/storage/EVMVMBridgedToken_99af3eea856556646c98c8b9b2548fe815240750Vault",
+        "receiver": "/public/EVMVMBridgedToken_99af3eea856556646c98c8b9b2548fe815240750Receiver",
+        "balance": "/public/EVMVMBridgedToken_99af3eea856556646c98c8b9b2548fe815240750Vault"
+      },
+      "symbol": "PYUSD0",
+      "name": "PYUSD0",
+      "description": "The most memeable memecoin in existence.",
+      "decimals": 16,
+      "logoURI": "https://swap.kittypunch.xyz/pyusd0.svg",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0x99af3eea856556646c98c8b9b2548fe815240750"
+      },
+      "evmAddress": "0x99af3eea856556646c98c8b9b2548fe815240750"
     }
   ],
   "totalAmount": 50,

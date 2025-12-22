@@ -701,6 +701,19 @@
     },
     {
       "chainId": 747,
+      "address": "0x99af3eea856556646c98c8b9b2548fe815240750",
+      "symbol": "PYUSD0",
+      "name": "PYUSD0",
+      "decimals": 16,
+      "logoURI": "https://swap.kittypunch.xyz/pyusd0.svg",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_99af3eea856556646c98c8b9b2548fe815240750.Vault",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0x99af3eea856556646c98c8b9b2548fe815240750"
+      }
+    },
+    {
+      "chainId": 747,
       "address": "0x717dae2baf7656be9a9b01dee31d571a9d4c9579",
       "contractName": "EVMVMBridgedToken_717dae2baf7656be9a9b01dee31d571a9d4c9579",
       "path": {
