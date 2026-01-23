@@ -1349,6 +1349,26 @@
         "website": "https://evm.flowscan.io/token/0x99af3eea856556646c98c8b9b2548fe815240750"
       },
       "evmAddress": "0x99af3eea856556646c98c8b9b2548fe815240750"
+    },
+    {
+      "chainId": 747,
+      "address": "0x1e4aa0b87d10b141",
+      "contractName": "EVMVMBridgedToken_d3bf53dac106a0290b0483ecbc89d40fcc961f3e",
+      "path": {
+        "vault": "/storage/EVMVMBridgedToken_d3bf53dac106a0290b0483ecbc89d40fcc961f3eVault",
+        "receiver": "/public/EVMVMBridgedToken_d3bf53dac106a0290b0483ecbc89d40fcc961f3eReceiver",
+        "balance": "/public/EVMVMBridgedToken_d3bf53dac106a0290b0483ecbc89d40fcc961f3eVault"
+      },
+      "symbol": "WFLOW",
+      "name": "Wrapped Flow",
+      "description": "WFLOW",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Outblock/Assets/main/ft/flow/logo.png",
+      "tags": [],
+      "extensions": {
+        "website": "https://evm.flowscan.io/token/0xd3bf53dac106a0290b0483ecbc89d40fcc961f3e"
+      },
+      "evmAddress": "0xd3bf53dac106a0290b0483ecbc89d40fcc961f3e"
     }
   ],
   "totalAmount": 50,

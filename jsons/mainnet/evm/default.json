@@ -335,7 +335,7 @@
       "name": "Wrapped Flow",
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/Outblock/Assets/main/ft/flow/logo.png",
-      "flowIdentifier": "",
+      "flowIdentifier": "A.1e4aa0b87d10b141.EVMVMBridgedToken_d3bf53dac106a0290b0483ecbc89d40fcc961f3e.Vault",
       "tags": [],
       "extensions": {
         "website": "https://evm.flowscan.io/token/0xd3bf53dac106a0290b0483ecbc89d40fcc961f3e"
